@@ -32,7 +32,7 @@ const Kulyampa = () => {
         <h2 className="text-2xl font-semibold mb-2">Про Кулямпу</h2>
         <p className="text-lg leading-relaxed mb-4">
           <p className="text-lg leading-relaxed mb-4">
-            <span>Кулямпа </span>
+            <span>Кулямпа</span>
            — це неймовірна страва, що вважається істинним скарбом української кулінарії,
           переповнена багатством смаків та ароматів, що відбивають багаторічні традиції та культурну спадщину нашого народу.
           Від тих часів, коли вона вперше з'явилася на українських обідніх столах, аж до сьогодення,
@@ -111,7 +111,7 @@ const Kulyampa = () => {
         </p>
       </section>
 
-     
+      {/* Add more interesting information or sections here */}
     </div>
   )
 }

@@ -111,7 +111,7 @@ const Kulyampa = () => {
         </p>
       </section>
 
-     
+      {/* Add more interesting information or sections here */}
     </div>
   )
 }
