@@ -6,7 +6,13 @@ const Kulyampa = () => {
     <div className="bg-white p-4">
       <h1 className="text-3xl font-bold mb-4">Кулямпа: Традиційна українська страва</h1>
       <p className="text-gray-600 mb-2">Опубліковано 18 серпня 2023</p>
-      
+      <Image
+        src="/ca-creative-yzFO7e_87fs-unsplash.jpg"
+        alt="Кулямпа"
+        className="w-full h-auto mb-6"
+        width={128}
+        height={128}
+      />
         <img src="/ca-creative-yzFO7e_87fs-unsplash.jpg" alt="Кулямпа" className="w-full h-auto mb-6" />
       <nav className="mb-6">
         <ul className="flex space-x-4">
