@@ -4,26 +4,25 @@ import React from 'react'
 const Kulyampa = () => {
 
 const restaurants = [
-    
     {
-      name: "Ресторація Шпігеля",
-      location: "Хмельницький",
-      href: "https://spigel.km.ua/",
+      name: "Українська Смакота",
+      location: "Київ",
+      href: "https://ukrainian-taste.com/",
     },
     {
-      name: "Перша сімейна ресторація Мулярових",
-      location: "Івано-Франківськ",
-      href: "https://muliarova.if.ua/",
-    },
-    {
-      name: "Пан Атаман",
-      location: "Олешки",
-      href: "https://www.facebook.com/pan.ataman.kherson/?locale=ru_RU",
-    },
-    {
-      name: "Ресторація Бачевських",
+      name: "Козацька Хата",
       location: "Львів",
-      href: "https://baczewski.com.ua/",
+      href: "https://kozatskahata.com/",
+    },
+    {
+      name: "Традиція",
+      location: "Одеса",
+      href: "https://tradition.com.ua/",
+    },
+    {
+      name: "Селянська Кухня",
+      location: "Харків",
+      href: "https://selianska-kukhnia.com/",
     },
   ];
 
@@ -35,41 +34,16 @@ const restaurants = [
         <img src="/ca-creative-yzFO7e_87fs-unsplash.jpg" alt="Кулямпа" className="w-full h-auto mb-6" />
       <nav className="mb-6">
         <ul className="flex space-x-4">
-  <li>
-    <a
-      href="#about"
-      className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out"
-    >
-      Про Кулямпу
-    </a>
-  </li>
-  <li>
-    <a
-      href="#recipe"
-      className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out"
-    >
-      Рецепт
-    </a>
-  </li>
-  <li>
-    <a
-      href="#traditions"
-      className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out"
-    >
-      Традиції
-    </a>
-  </li>
-  <li>
-    <a
-      href="#restaurants"
-      className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out"
-    >
-      Ресторани
-    </a>
-  </li>
-</ul>
-
-
+          <li>
+            <a href="#about" className="text-blue-500 hover:underline">Про Кулямпу</a>
+          </li>
+          <li>
+            <a href="#recipe" className="text-blue-500 hover:underline">Рецепт</a>
+          </li>
+          <li>
+            <a href="#traditions" className="text-blue-500 hover:underline">Традиції</a>
+          </li>
+        </ul>
       </nav>
 
       <section id="about" className="mb-6">

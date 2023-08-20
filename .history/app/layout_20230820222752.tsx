@@ -18,10 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
+      {/* <head>
         <meta name="google-site-verification" content="2mgyOlwwhb-FOBIHL0X8Rst2spNoz82k-JcZP-eiwag" />
-        <link rel="icon" type="image/x-icon" href="/favicon-16x16.png"></link>
-      </head>
+      </head> */}
       <body className={inter.className}>
         <Header />
        
