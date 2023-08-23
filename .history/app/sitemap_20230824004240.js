@@ -5,11 +5,11 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: "https://kulyampa.vercel.app/Kulyampa",
+      url: "http://localhost:3000/Kulyampa",
       lastModified: new Date(),
     },
     {
-      url: "https://kulyampa.vercel.app/YN",
+      url: "http://localhost:3000/YN",
       lastModified: new Date(),
     },
   ];
