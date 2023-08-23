@@ -8,7 +8,7 @@ const Header = () => {
         <h1 className="text-xl font-semibold">Кулямпа</h1>
         <nav>
           <div className="flex space-x-4">
-            <Link href="/Kulyampa-old">Кулямпа</Link>
+            <Link href="/Kulyamp-old">Кулямпа</Link>
             <Link href="/YN">SEO</Link>
 
           </div>
